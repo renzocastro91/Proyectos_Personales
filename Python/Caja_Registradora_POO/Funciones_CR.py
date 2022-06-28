@@ -66,20 +66,19 @@ def registrar_compra(lista,listm):
                 if i.codigo == cod:
                     bandera = True
                     x = i
+                    print("----------------------------------------------------------------------------")
+                    print(                                  f"Producto {c}")
+                    print("----------------------------------------------------------------------------")
+                    i.descripcion()
+                    print("----------------------------------------------------------------------------")
+                    cant = int(input("Ingrese la cantidad de unidades:\t"))
+                    i.cambiarstock(cant)
+                    monto = monto + x.precio*cant
                     break
-            if bandera:
-                print("----------------------------------------------------------------------------")
-                print(                                  f"Producto {c}")
-                print("----------------------------------------------------------------------------")
-                x.descripcion()
-                print("----------------------------------------------------------------------------")
-                cant = int(input("Ingrese la cantidad de unidades:\t"))
-                x.cambiarstock(cant)
-                monto = monto + x.precio
-            else:
+            if not bandera:
                 print("----------------------------------------------------------------------------")
                 print(                              "Producto no encontrado")
-                print("----------------------------------------------------------------------------")
+                print("----------------------------------------------------------------------------")               
             c += 1
             print("----------------------------------------------------------------------------")
         objeto_carrito = Carrito(c,monto)
@@ -102,16 +101,17 @@ def registrar_compra(lista,listm):
                     print("----------------------------------------------------------------------------")
                     cant = int(input("Ingrese la cantidad de unidades:\t"))
                     i.cambiarstock(cant)
-                    monto = monto + i.precio
+                    monto = monto + i.precio*cant
                     break
             c += 1
             op = input("Desea seguir pasando productos por el código de barra? s o n \nIngrese:\t")
             if op == "n":
                 break
             print("----------------------------------------------------------------------------")
-        listm.append(monto)
+        objeto_carrito = Carrito(c,monto)
+        listm.append(objeto_carrito)
         print("----------------------------------------------------------------------------")
-        print(                              f"Total a pagar: ${monto}")
+        print(objeto_carrito.descripcion())
         print("----------------------------------------------------------------------------")
 
 
@@ -228,4 +228,7 @@ def modificar_articulo(lista):
         print("                            Producto No encontrado")
         print("----------------------------------------------------------------------------")
         
-    
+def reiniciar_stock(lista):
+    for i in lista:
+        i.modificar_stock(200)
+    print("Todos los productos tienen de nuevo 200 unidades")

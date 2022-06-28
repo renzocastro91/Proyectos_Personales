@@ -11,7 +11,7 @@ lista_clientes = []
 
 while True:
     print("----------------------------------------------------------------------------")
-    op = input("Que quieres hacer? \n 1- Registrar una compra \n 2- Mostrar todos los artículos \n 3- Buscar un artículo \n 4- Agregar un artículo \n 5- Eliminar un artículo \n 6- Modificar Artículo \n 7 - Salir \n Ingrese:\t")
+    op = input("Que quieres hacer? \n 1- Registrar una compra \n 2- Mostrar todos los artículos \n 3- Buscar un artículo \n 4- Agregar un artículo \n 5- Eliminar un artículo \n 6- Modificar Artículo \n 7- Reiniciar Stock de todos \n 8- Salir \n Ingrese:\t")
     if op == "1":
         Funciones_CR.registrar_compra(lista_articulos,lista_clientes)
     elif op == "2":
@@ -25,6 +25,8 @@ while True:
     elif op == "6":
         Funciones_CR.modificar_articulo(lista_articulos)
     elif op == "7":
+        Funciones_CR.reiniciar_stock(lista_articulos)
+    elif op == "8":
         break
     else:
         print("Opción ingresada incorrecta")
