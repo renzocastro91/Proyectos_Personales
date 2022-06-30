@@ -1,0 +1,7 @@
+1,Renzo,3624948616,5656565656,Calle 1
+2,Ayelen,3432484215,0,Calle 1
+3,Julia,54545454,5645454545,Calle Ancha
+4,Roberto,54545454545,0,Calle 20
+5,Horacio,5454545454,0,Calle Angosta
+6,Lucia,5454545454,0,Calle 123
+7,Amalia,54544875,0,Calle J
