@@ -5,4 +5,3 @@
 5,{'MontoAcumulado': 1129.25, 'Fecha': '2022-06-21'}
 6,{'MontoAcumulado': 252.5, 'Fecha': '2022-06-21'}
 7,{'MontoAcumulado': 727.75, 'Fecha': '2022-06-26'}
-8,{'MontoAcumulado': 682.0, 'Fecha': '2023-04-26'}

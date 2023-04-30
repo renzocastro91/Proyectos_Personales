@@ -1,0 +1,20 @@
+from ClasesEmpleados import *
+
+empleado1 = Empleado("Juan Perez", 1234, 1000, "Gerente")
+empleado2 = Empleado("Maria Garcia", 5678, 800, "Supervisor")
+
+print("=================================")
+print("Antes de Modificar")
+print("Nombre: " , empleado1.nombre)
+print("Horario: ", empleado1.horario)
+print("Posicion: ",empleado1.posicion)
+print("=================================")
+empleado1.asignar_bonificacion(500)
+empleado1.asignar_horario("tiempo completo")
+empleado1.modificar_posicion("Director")
+print("=================================")
+print("Después de la modificación")
+print("Nombre: " , empleado1.nombre)
+print("Horario: ", empleado1.horario)
+print("Posicion: ",empleado1.posicion)
+print("=================================")

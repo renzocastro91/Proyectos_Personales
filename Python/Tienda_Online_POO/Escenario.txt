@@ -1,0 +1,6 @@
+Supongamos que queremos desarrollar un sistema de gestión de una tienda en línea. Queremos crear una clase Producto que 
+represente a cada producto que se vende en la tienda. Cada producto tiene un nombre, un precio, una cantidad disponible 
+en el inventario y una categoría (por ejemplo, electrónica, hogar, moda, etc.). Además, queremos crear una clase Carrito 
+que represente el carrito de compras de cada usuario. Cada objeto Carrito tendrá sus propios atributos, como una lista 
+de productos y un total de compra, y métodos que permitan agregar y quitar productos del carrito, así como calcular el 
+total de compra.

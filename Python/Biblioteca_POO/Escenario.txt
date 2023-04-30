@@ -1,0 +1,40 @@
+Descripción del escenario:
+
+Se desea construir un sistema de gestión de biblioteca, donde se puedan llevar a cabo las siguientes operaciones:
+
+Añadir un libro a la biblioteca
+Consultar el catálogo de la biblioteca
+Consultar los detalles de un libro específico
+Prestar un libro
+Devolver un libro prestado
+Consultar los libros prestados
+Para ello, se implementará una clase principal llamada Biblioteca, que contendrá una lista de objetos de la clase Libro, que representarán los libros en la biblioteca.
+
+La clase Libro tendrá los siguientes atributos:
+
+Título del libro
+Autor del libro
+Año de publicación
+Número de páginas
+Estado del libro (disponible o prestado)
+La clase Biblioteca tendrá los siguientes métodos:
+
+Añadir un libro a la biblioteca
+Consultar el catálogo de la biblioteca
+Consultar los detalles de un libro específico
+Prestar un libro
+Devolver un libro prestado
+Consultar los libros prestados
+El método para añadir un libro a la biblioteca tomará como parámetros los atributos del libro y creará un objeto de la clase Libro para agregarlo a la lista de libros en la biblioteca.
+
+El método para consultar el catálogo de la biblioteca imprimirá una lista de todos los libros en la biblioteca.
+
+El método para consultar los detalles de un libro específico tomará como parámetro el título del libro y mostrará los detalles de ese libro.
+
+El método para prestar un libro tomará como parámetro el título del libro y cambiará el estado del libro a prestado.
+
+El método para devolver un libro prestado tomará como parámetro el título del libro y cambiará el estado del libro a disponible.
+
+El método para consultar los libros prestados imprimirá una lista de todos los libros prestados y la información del usuario que los tiene prestados.
+
+Se podrán crear múltiples objetos Biblioteca para representar diferentes bibliotecas y se podrán llevar a cabo todas las operaciones mencionadas anteriormente en cada una de ellas.

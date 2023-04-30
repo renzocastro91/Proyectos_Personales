@@ -1,0 +1,10 @@
+Supongamos que queremos desarrollar un sistema de gestión de empleados para una empresa. Cada empleado tiene un nombre, 
+un número de identificación, un salario base y una posición en la empresa (por ejemplo, gerente, supervisor, asistente, etc.).
+Además, cada empleado puede recibir bonificaciones anuales y puede tener un horario de trabajo específico (por ejemplo, tiempo completo
+o medio tiempo).
+
+Queremos crear un programa que nos permita crear, modificar y consultar información de los empleados de la empresa.
+
+Para modelar este escenario con el paradigma orientado a objetos, podemos crear una clase Empleado que represente a cada empleado de 
+la empresa. Cada objeto Empleado tendrá sus propios atributos, como nombre, identificación, salario base y posición en la empresa, y 
+métodos que permitan modificar y consultar esta información.

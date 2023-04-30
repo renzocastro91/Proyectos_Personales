@@ -15,8 +15,8 @@
 15,{'Articulo': 'Palitos Salados', 'Marca': 'D-157', 'Precio': 80.25, 'Stock': 192}
 16,{'Articulo': 'Caramelos', 'Marca': '48745A', 'Precio': 60.25, 'Stock': 200}
 17,{'Articulo': 'Harina AAA', 'Marca': 'Reforzada', 'Precio': 150.25, 'Stock': 200}
-18,{'Articulo': 'Papas Fritas', 'Marca': 'Argenta', 'Precio': 100.25, 'Stock': 198}
-19,{'Articulo': 'Jabon', 'Marca': 'Axe', 'Precio': 80.25, 'Stock': 177}
+18,{'Articulo': 'Papas Fritas', 'Marca': 'Argenta', 'Precio': 100.25, 'Stock': 200}
+19,{'Articulo': 'Jabon', 'Marca': 'Axe', 'Precio': 80.25, 'Stock': 183}
 20,{'Articulo': 'Jabon', 'Marca': 'Man', 'Precio': 87.5, 'Stock': 200}
 21,{'Articulo': 'Manteca', 'Marca': 'Genial', 'Precio': 100.25, 'Stock': 195}
 23,{'Articulo': 'Alfajor', 'Marca': 'Jorgito', 'Precio': 30.5, 'Stock': 200}
